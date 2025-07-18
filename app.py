@@ -99,4 +99,5 @@ def atualizar_dashboard(analista):
     return fig_rnr, fig_mrr, total_txt, tabela_dados, tabela_colunas
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(debug=False, host='0.0.0.0', port=8050)
+
